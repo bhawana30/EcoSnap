@@ -6,15 +6,10 @@ https://user-images.githubusercontent.com/7581348/208559445-a449cef6-0ae1-4c08-b
 
 Recycle your plastic better with Artificial Intelligence ♻️
 
-EcoSnap tells you how and where to recycle your items from a simple picture, with advice tailored to your location. We built this product in a week for [Ben's Bites AI Hackathon](https://alyssax.substack.com/p/we-built-an-ai-recycling-app-in-a).
+EcoSnap tells you how and where to recycle your items from a simple picture, with advice tailored to your location. 
 
-👉 [Try it now - it's free with no sign in needed](https://ecosnap.vercel.app)
 
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https://github.com/alyssaxuu/ecosnap)
-
-> You can support this project (and many others) through [GitHub Sponsors](https://github.com/sponsors/alyssaxuu)! ❤️
-
-Made by [Alyssa X](https://twitter.com/alyssaxuu) & [Leo](https://www.linkedin.com/in/leonorfurtado/). Read more about how we built this [here](https://alyssax.substack.com/p/we-built-an-ai-recycling-app-in-a).
+> 
 
 <a href="https://www.producthunt.com/posts/ecosnap?utm_source=badge-featured&utm_medium=badge&utm_souce=badge-ecosnap" target="_blank"><img src="https://api.producthunt.com/widgets/embed-image/v1/featured.svg?post_id=374164&theme=neutral" alt="EcoSnap - Recycle&#0032;your&#0032;plastic&#0032;better&#0032;with&#0032;Artificial&#0032;Intelligence | Product Hunt" style="width: 250px; height: 54px;" width="250" height="54" /></a>
 
@@ -43,7 +38,7 @@ Made by [Alyssa X](https://twitter.com/alyssaxuu) & [Leo](https://www.linkedin.c
 ## Installation
 You can deploy to Vercel directly by [clicking here](https://vercel.com/new/clone?repository-url=https://github.com/alyssaxuu/ecosnap). 
 
-**Important:** Make sure to update the environment variable for [NEXT_PUBLIC_MODEL_URL](https://github.com/alyssaxuu/ecosnap/blob/a9c7e7e1ec19f106db69abd6d66be558bd21445a/.env#L16) in the .env file, and set it to an absolute URL where you host the [model.json](https://github.com/alyssaxuu/ecosnap/tree/main/ml/models/efficient_net/10/predict) (make sure to include the other shard bin files alongside the JSON).
+
 
 
 ## The AI Model
@@ -58,7 +53,7 @@ The final model was trained using [TensorFlow's EfficientNet](https://www.tensor
 
 ### Prediction
 
-To predict the plastic resin code, the model had to be integrated with the front end app for real-time results, to do this we had to convert the model in a way that was compatible with [TensorFlow.js](https://www.tensorflow.org/js). We used [Web Workers](https://github.com/alyssaxuu/ecosnap/blob/main/components/Worker.js) to prevent the main thread from being block while running the prediction in the client.
+To predict the plastic resin code, the model had to be integrated with the front end app for real-time results, to do this we had to convert the model in a way that was compatible with [TensorFlow.js](https://www.tensorflow.org/js).
 
 The app passes the image Tensor onto the model that then gives a probability for each of the plastic resin codes, the one with the highest probability gets shown to the user, *along with bespoke advice*!
 
@@ -83,4 +78,4 @@ While we implemented the front end for the feedback loop, we ended up not connec
 - [React Camera Pro](https://github.com/purple-technology/react-camera-pro) - for the camera
 
 
-Feel free to reach out to us at hi@alyssax.com, to [Alyssa](https://twitter.com/alyssaxuu) or [Leo](https://www.linkedin.com/in/leonorfurtado/) directly if you have any questions or feedback! Hope you find this useful 💜
+
