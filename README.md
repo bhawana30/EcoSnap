@@ -11,8 +11,6 @@ EcoSnap tells you how and where to recycle your items from a simple picture, wit
 
 > 
 
-<a href="https://www.producthunt.com/posts/ecosnap?utm_source=badge-featured&utm_medium=badge&utm_souce=badge-ecosnap" target="_blank"><img src="https://api.producthunt.com/widgets/embed-image/v1/featured.svg?post_id=374164&theme=neutral" alt="EcoSnap - Recycle&#0032;your&#0032;plastic&#0032;better&#0032;with&#0032;Artificial&#0032;Intelligence | Product Hunt" style="width: 250px; height: 54px;" width="250" height="54" /></a>
-
 ## Table of contents
 
 - [Features](#features)
@@ -34,10 +32,6 @@ EcoSnap tells you how and where to recycle your items from a simple picture, wit
 🥤 Keep track of how many plastic items you've recycled<br>
 🌍 Change your location for specific advice<br>
 ✨...and much more to come - all for free & no sign in needed!
-
-## Installation
-You can deploy to Vercel directly by [clicking here](https://vercel.com/new/clone?repository-url=https://github.com/alyssaxuu/ecosnap). 
-
 
 
 
